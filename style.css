@@ -1,0 +1,58 @@
+.Login{
+    background-color: #000;
+    display: flex;
+    justify-content:center;
+}
+.Login .Login_div{
+    padding: 50px 50px;
+}
+
+.Logo img{
+    width: 120px;
+    padding: 25px 25px ;
+}
+.Login_div .Login_email{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 16px 16px;
+    margin-top: 10px;
+    min-block-size: 40px;
+    margin-bottom: 10px;
+}
+.Login_div ul{
+    font-family: 'Montserrat', sans-serif;
+}
+.Login_div ul li h1{
+    color:aliceblue;
+    font-size: 40px;
+}
+.Login_div ul li p{
+    padding-top:50px;
+    padding-bottom: 10px;
+    color:aliceblue;
+    font-size: 15px;
+}
+.Login_div ul li input{
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+.Login_div .Login_email ul li a{
+    color: #1DB954;
+    font-size: 15px;
+}
+.Login_div ul li button{
+    
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px 120px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    color:#000;
+    font-size: 15px;
+    background-color: #1DB954;
+}
