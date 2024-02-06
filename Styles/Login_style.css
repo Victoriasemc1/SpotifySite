@@ -1,0 +1,90 @@
+body{
+    margin-top: 60px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+}
+.Logo img{
+    width: 80px;
+    padding: 50px 30px ;
+    position:absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.container{
+    display: flex;
+}
+.DDI_div, .Telefone_div{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+/* DDI do usuario */
+
+.DDI_div form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.DDI_div select{
+    border-radius: 2px;
+    padding-right: 60px;
+    border-style: none;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-color: #121212;
+    padding: 10px 90px 10px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Inserir numero de telefone */
+
+.Telefone_div ul{
+    margin-bottom: 40px;
+}
+.Telefone_div li{
+    margin-top: 15px;
+}
+.Telefone_div p{
+    color: #FFFFFF;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.Telefone_div input{
+    margin-bottom: 10px;
+    background-color: #121212;
+    border-radius: 5px;
+    border: 1px solid #A9A9A9;
+    padding: 10px 300px 14px 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+::placeholder{
+    color: #A9A9A9;
+    text-justify:auto;
+    font-size: 17px;
+}
+
+/* Botao de avancar */
+
+.Botao_avancar button{
+    margin-bottom: 35px;
+    border-radius: 50px;
+    border-style: none;
+    padding: 15px 90px;
+    display: block;
+    text-decoration: none;
+    border: none;
+    color:#000;
+    font-size: 15px;
+    background-color: #1DB954;
+}

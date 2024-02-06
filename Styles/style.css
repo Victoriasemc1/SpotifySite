@@ -88,22 +88,21 @@ body{
     background-color: #000; 
     color: #FFFFFF;
 }
+.Login_Acounts ul{
+    margin-top: 35px;
+    margin-bottom: 35px;
+ }
 .Login_Acounts button{
     border-radius: 50px;
     display:block;
     width: 100%;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px 8px 0px;
     text-align: center;
     margin: 8px auto;
     text-decoration: none;
     font-size: 15px;
     border: 1px solid #A9A9A9;
     background-color: #000;
-    
-}
-.Login_Acounts ul{
-   margin-top: 35px;
-   margin-bottom: 35px;
 }
 .Login_Acounts img{
     width: 20px;
@@ -114,7 +113,9 @@ body{
 .Login_Acounts span{
     text-align: center;
     color:#FFFFFF;
+    display:inline-table;
     text-decoration: none;
+    padding-bottom: 10px;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
