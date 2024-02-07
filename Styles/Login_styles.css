@@ -1,0 +1,46 @@
+body{
+    margin-top: 100px;
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+}
+.Logo img{
+    width: 95px;
+    padding: 30px 30px ;
+    position:absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.Login_Acounts h6{
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Login_Acounts button{
+    border-radius: 50px;
+    display:flex;
+    width: 100%;
+    padding: 15px 125px;
+    margin: 8px auto;
+    text-decoration: none;
+    border: 1px solid #626262;
+    background-color: #121212;
+    align-items: center;
+    width: 100%;
+}
+.Login_Acounts img{
+    margin-right: 50px;
+    max-height: 20px;
+    margin-left: 20px;
+}
+.Login_Acounts span{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
