@@ -97,13 +97,17 @@ body{
 .Login_Acounts button{
     border-radius: 50px;
     display:flex;
+    text-align:center;
+    align-self: center;
     width: 100%;
     padding: 10px 0px 10px 0px;
-    margin: 8px auto;
+    /* margin: 8px auto; */
     text-decoration: none;
     border: 1px solid #626262;
     background-color: #121212;
-    align-items: center;
+    color:#FFFFFF;
+    font-size: 13.5px;
+    font-weight: bold;
 }
 .Login_Acounts img{
     margin-right: 50px;
@@ -115,6 +119,9 @@ body{
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
+}
+.Login_Acounts li{
+    margin-top: 8px;
 }
 /* Terceira parte do site */
 .Divisoria_2{
